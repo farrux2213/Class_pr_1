@@ -35,8 +35,12 @@ var Shaxboz = new Odom_uch(
 );
 // console.log(Farrukh);
 // console.log(Umar);
-console.log(Shaxboz.fullName());
-console.log(Shaxboz);
+// console.log(Shaxboz.fullName());
+// console.log(Shaxboz);
 
 //DRY -> don't repeat yourself
 //KISS -> keep it super simple
+
+// meros nima ? ------------->>>>>> Bu biror bir class orqali uning ichidagi kodlardan
+// foydalanib yana boshqa classlar barpo etish yani yaratish bitta kodni qayta qayta yozmasdan shunchaki general classdan olib boshqa
+// new classga qowiw bu Meros olish hisoblanadi va yana biz new classga qoshimcha malumotlar ham qoshsak boladi !!!
