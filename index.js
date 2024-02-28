@@ -4,6 +4,9 @@ class Odom {
     this.surname = surname;
     this.adress = adress;
     this.age = age;
+    this.fullName = function () {
+      return `${this.name} ${this.surname}`;
+    };
   }
 }
 
@@ -32,6 +35,7 @@ var Shaxboz = new Odom_uch(
 );
 // console.log(Farrukh);
 // console.log(Umar);
+console.log(Shaxboz.fullName());
 console.log(Shaxboz);
 
 //DRY -> don't repeat yourself
