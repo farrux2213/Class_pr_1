@@ -10,3 +10,6 @@ class Odom {
 var Farrukh = new Odom("Farrukh", "Asqaraliyev", "Tashkent", "19");
 
 console.log(Farrukh);
+
+//DRY -> don't repeat yourself
+//KISS -> keep it super simple
