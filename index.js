@@ -7,12 +7,9 @@ class Odom {
   }
 }
 
-class Odom_ikki {
+class Odom_ikki extends Odom {
   constructor(name, surname, adress, age, nameCar) {
-    this.name = name;
-    this.surname = surname;
-    this.adress = adress;
-    this.age = age;
+    super(name, surname, adress, age);
     this.nameCar = nameCar;
   }
 }
