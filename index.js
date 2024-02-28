@@ -42,5 +42,6 @@ var Shaxboz = new Odom_uch(
 //KISS -> keep it super simple
 
 // meros nima ? ------------->>>>>> Bu biror bir class orqali uning ichidagi kodlardan
-// foydalanib yana boshqa classlar barpo etish yani yaratish bitta kodni qayta qayta yozmasdan shunchaki general classdan olib boshqa
+// foydalanib yana boshqa classlar barpo etish yani yaratish bitta kodni qayta qayta
+// yozmasdan shunchaki general classdan olib boshqa
 // new classga qowiw bu Meros olish hisoblanadi va yana biz new classga qoshimcha malumotlar ham qoshsak boladi !!!
