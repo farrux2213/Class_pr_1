@@ -48,3 +48,4 @@
 
 // console.log("learning sync and async");
 // console.log("Baribir Nexia 2 legenda");
+console.log((2272239 * 3729) / 2382371 - 2395727394 + 4325284);
