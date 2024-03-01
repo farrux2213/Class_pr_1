@@ -46,4 +46,4 @@
 // yozmasdan shunchaki general classdan olib boshqa
 // new classga qowiw bu Meros olish hisoblanadi va yana biz new classga qoshimcha malumotlar ham qoshsak boladi !!!
 
-console.log("learning sync and async");
+// console.log("learning sync and async");
