@@ -27,4 +27,4 @@
 // };
 
 // get_flowers("Cactus", ["title", "price", "main_image", "comments"]);
-console.log("end JS");
+// console.log("end JS");
