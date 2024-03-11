@@ -1,51 +1,30 @@
-// class Odom {
-//   constructor(name, surname, adress, age) {
-//     this.name = name;
-//     this.surname = surname;
-//     this.adress = adress;
-//     this.age = age;
-//     this.fullName = function () {
-//       return `${this.name} ${this.surname}`;
-//     };
-//   }
-// }
+// const url = "https://cute-jade-binturong-boot.cyclic.app/api";
 
-// class Odom_ikki extends Odom {
-//   constructor(name, surname, adress, age, nameCar) {
-//     super(name, surname, adress, age);
-//     this.nameCar = nameCar;
-//   }
-// }
+// const get_flowers = (gul_nomi, others) => {
+//   fetch(
+//     `${url}/flower/category/house-plants?access_token=64bebc1e2c6d3f056a8c85b7`,
+//     {
+//       method: "GET",
+//     }
+//   )
+//     .then((response) => {
+//       return response.json();
+//     })
+//     .then((data) => {
+//       console.log(
+//         data.data.filter((value) => {
+//           return value.title.includes(gul_nomi);
+//         })
+//         titleincludes(gul_nomi).filter((value) => {
+//             return value
+//         })
+//       );
+//     })
 
-// class Odom_uch extends Odom {
-//   constructor(name, surname, adress, age, nameCar) {
-//     super(name, surname, adress, age);
-//     this.nameCar = nameCar;
-//   }
-// }
+//     .catch((error) => {
+//       console.log(error);
+//     });
+// };
 
-// var Farrukh = new Odom("Farrukh", "Asqaraliyev", "Tashkent", "19");
-// var Umar = new Odom_ikki("Umar", "Saidmuradov", "Toraqorgon", "18", "Jentra");
-// var Shaxboz = new Odom_uch(
-//   "Shaxbozbek",
-//   "Joramirzayev",
-//   "Namangan",
-//   "18",
-//   "Nexia 1"
-// );
-// console.log(Farrukh);
-// console.log(Umar);
-// console.log(Shaxboz.fullName());
-// console.log(Shaxboz);
-
-//DRY -> don't repeat yourself
-//KISS -> keep it super simple
-
-// meros nima ? ------------->>>>>> Bu biror bir class orqali uning ichidagi kodlardan
-// foydalanib yana boshqa classlar barpo etish yani yaratish bitta kodni qayta qayta
-// yozmasdan shunchaki general classdan olib boshqa
-// new classga qowiw bu Meros olish hisoblanadi va yana biz new classga qoshimcha malumotlar ham qoshsak boladi !!!
-
-// console.log("learning sync and async");
-// console.log("Baribir Nexia 2 legenda");
-// console.log((2272239 * 3729) / 2382371 - 2395727394 + 4325284);
+// get_flowers("Cactus", ["title", "price", "main_image", "comments"]);
+console.log("end JS");
